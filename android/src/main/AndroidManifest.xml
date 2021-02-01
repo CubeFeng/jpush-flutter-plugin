@@ -26,7 +26,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Android Q后台定位权限 -->
+    <!-- 因 google play 权限政策，且 ACCESS_BACKGROUND_LOCATION 为非必须权限，暂时移除 -->
+<!--    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> &lt;!&ndash; Android Q后台定位权限 &ndash;&gt;-->
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
